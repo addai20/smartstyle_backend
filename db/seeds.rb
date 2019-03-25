@@ -4,7 +4,7 @@ Item.destroy_all
 ItemCategory.destroy_all
 
 all = Category.create(title: "All Elements", description: "Can be worn wherever")
-thunderstorm = Category.create(title: "Rain", description: "Gear for weather when raining")
+thunderstorm = Category.create(title: "ThunderStorm", description: "Gear for weather when raining")
 snow = Category.create(title: "Snow", description: "Gear for weather when snowing")
 rain = Category.create(title: "Rain", description: "Gear for weather when Sunny")
 drizzle = Category.create(title: "Drizzle", description: "Gear for weather when Drizzle")
@@ -68,7 +68,7 @@ ItemCategory.create(item_id: shirt.id, category_id: all.id )
 ItemCategory.create(item_id: jacket2.id, category_id: all.id )
 ItemCategory.create(item_id: polo.id, category_id: clear.id )
 ItemCategory.create(item_id: polo.id, category_id: clouds.id )
-ItemCategory.create(item_id: shirt2.id, category_id: clear.id )
+ItemCategory.create(item_id: shirt2.id, category_id: rain.id )
 ItemCategory.create(item_id: shirt2.id, category_id: clouds.id )
 ItemCategory.create(item_id: shirt2.id, category_id: drizzle.id )
 ItemCategory.create(item_id: suitJacket1.id, category_id: clear.id )
