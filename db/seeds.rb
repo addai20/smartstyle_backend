@@ -21,17 +21,17 @@ raybans1 = Item.create(name: "RayBan Wayfarers", img_url: "https://i.imgur.com/H
 raybans2 = Item.create(name: "RayBan Aviators", img_url: "https://i.imgur.com/CfpIkkot.jpg", body_part: "head", min_temp: 0, max_temp: 100)
 
 # TORSO Items
-jacket = Item.create(name: "Leather Biker Jacket", img_url: "https://imgur.com/iAxJlKk", body_part: "torso", min_temp: 40, max_temp: 60)
-parka = Item.create(name: "Canada Goose Parka", img_url: "https://imgur.com/ocGqDGx", body_part: "torso", min_temp: 0, max_temp: 40)
-shirt = Item.create(name: "B/W Striped Tee", img_url: "https://imgur.com/cVWw3K9", body_part: "torso", min_temp: 60, max_temp: 90)
-jacket2 = Item.create(name: "Olive Worker Jacket", img_url: "https://imgur.com/HU3nub2", body_part: "torso", min_temp: 40, max_temp: 60)
-polo = Item.create(name: "Red Patterned Polo", img_url: "https://imgur.com/ZvHiUK5", body_part: "torso", min_temp: 60, max_temp: 90)
-shirt2 = Item.create(name: "Red Tee", img_url: "https://imgur.com/q30mwwb", body_part: "torso", min_temp: 60, max_temp: 90)
-suitJacket1 = Item.create(name: "Burgundy Suit Jacket", img_url: "https://imgur.com/b0KbRdY", body_part: "torso", min_temp: 40, max_temp: 70)
-shirt3 = Item.create(name: "White Tee", img_url: "https://imgur.com/9Zu5iWK", body_part: "torso", min_temp: 60, max_temp: 90)
-jacket = Item.create(name: "Patterned ls Button-up Shirt", img_url: "https://imgur.com/WQ7TQci", body_part: "torso", min_temp: 45, max_temp: 90)
-suitJacket2= Item.create(name: "Black Suit Jacket", img_url: "https://imgur.com/OWoAavm", body_part: "torso", min_temp: 45, max_temp: 70)
-shirt4 = Item.create(name: "Black Tee", img_url: "https://imgur.com/vkYuuw9", body_part: "torso", min_temp: 60, max_temp: 90)
+jacket = Item.create(name: "Leather Biker Jacket", img_url: "https://i.imgur.com/iAxJlKkt.jpg", body_part: "torso", min_temp: 40, max_temp: 60)
+parka = Item.create(name: "Canada Goose Parka", img_url: "https://i.imgur.com/ocGqDGxt.jpg", body_part: "torso", min_temp: 0, max_temp: 40)
+shirt = Item.create(name: "B/W Striped Tee", img_url: "https://i.imgur.com/cVWw3K9t.jpg", body_part: "torso", min_temp: 60, max_temp: 90)
+jacket2 = Item.create(name: "Olive Worker Jacket", img_url: "https://i.imgur.com/HU3nub2t.jpg", body_part: "torso", min_temp: 40, max_temp: 60)
+polo = Item.create(name: "Red Patterned Polo", img_url: "https://i.imgur.com/ZvHiUK5t.jpg", body_part: "torso", min_temp: 60, max_temp: 90)
+shirt2 = Item.create(name: "Red Tee", img_url: "https://i.imgur.com/q30mwwbt.jpg", body_part: "torso", min_temp: 60, max_temp: 90)
+suitJacket1 = Item.create(name: "Burgundy Suit Jacket", img_url: "https://i.imgur.com/b0KbRdYt.jpg", body_part: "torso", min_temp: 40, max_temp: 70)
+shirt3 = Item.create(name: "White Tee", img_url: "https://i.imgur.com/9Zu5iWKt.jpg", body_part: "torso", min_temp: 60, max_temp: 90)
+jacket = Item.create(name: "Patterned ls Button-up Shirt", img_url: "https://i.imgur.com/8ZOiCANt.jpg?1", body_part: "torso", min_temp: 45, max_temp: 90)
+suitJacket2= Item.create(name: "Black Suit Jacket", img_url: "https://i.imgur.com/OWoAavmt.jpg", body_part: "torso", min_temp: 45, max_temp: 70)
+shirt4 = Item.create(name: "Black Tee", img_url: "https://i.imgur.com/vkYuuw9t.jpg", body_part: "torso", min_temp: 60, max_temp: 90)
 
 # LEG Items
 jeans1 = Item.create(name: "Grey Distressed Biker Jeans", img_url: "https://i.imgur.com/htg6YMft.jpg", body_part: "legs", min_temp: 20, max_temp: 70)
@@ -45,6 +45,16 @@ jeans7 = Item.create(name: "Dark Denim Straight Fit Jeans", img_url: "https://i.
 suitPants1 = Item.create(name: "Black Suit Pants", img_url: "https://i.imgur.com/Y4uI8dft.jpg", body_part: "legs", min_temp: 40, max_temp: 70)
 suitPants2 = Item.create(name: "Burgundy Suit Pants", img_url: "https://i.imgur.com/mRcvObTt.jpg", body_part: "legs", min_temp: 40, max_temp: 70)
 jeans8 = Item.create(name: "Light Blue Slim Fit Jeans", img_url: "https://i.imgur.com/13qRaXRt.jpg", body_part: "legs", min_temp: 40, max_temp: 80)
+
+# SHOE Items
+shoe1 = Item.create(name: "Nike Air VaporMax 2019", img_url: "https://i.imgur.com/oU0HgqWt.jpg", body_part: "feet", min_temp: 0, max_temp: 100)
+shoe2 = Item.create(name: "Zara Flip Flops", img_url: "https://i.imgur.com/kgP4VXWt.jpg", body_part: "feet", min_temp: 70, max_temp: 100)
+shoe2 = Item.create(name: "Rain Boots", img_url: "https://i.imgur.com/aTCBGemt.jpg", body_part: "feet", min_temp: 33, max_temp: 70)
+shoe2 = Item.create(name: "Black Brogues", img_url: "https://i.imgur.com/HKR1Q0Vt.jpg", body_part: "feet", min_temp: 0, max_temp: 75)
+shoe2 = Item.create(name: "Brown Brogues", img_url: "https://i.imgur.com/UizOArFt.jpg", body_part: "feet", min_temp: 0, max_temp: 75)
+shoe2 = Item.create(name: "White Converse AllStar Low", img_url: "https://i.imgur.com/OdqTciLt.jpg", body_part: "feet", min_temp: 50, max_temp: 100)
+shoe2 = Item.create(name: "Maroon Converse AllStar Hi", img_url: "https://i.imgur.com/jgtwVrPt.jpg", body_part: "feet", min_temp: 50, max_temp: 100)
+shoe2 = Item.create(name: "Black Converse AllStar Hi", img_url: "https://i.imgur.com/QF12xFEt.jpg", body_part: "feet", min_temp: 50, max_temp: 100)
 
 # ItemCategory
 ItemCategory.create(item_id: hat1.id, category_id: all.id )
