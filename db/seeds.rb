@@ -3,12 +3,12 @@ Category.destroy_all
 Item.destroy_all
 ItemCategory.destroy_all
 
-all = Category.create(title: "All Elements", description: "Can be worn wherever")
+all = Category.create(title: "All", description: "Can be worn wherever")
 thunderstorm = Category.create(title: "ThunderStorm", description: "Gear for weather when raining")
 snow = Category.create(title: "Snow", description: "Gear for weather when snowing")
 rain = Category.create(title: "Rain", description: "Gear for weather when Sunny")
 drizzle = Category.create(title: "Drizzle", description: "Gear for weather when Drizzle")
-clear = Category.create(title: "Cold", description: "Gear for weather when Cold")
+clear = Category.create(title: "Clear", description: "Gear for weather when Clear")
 clouds = Category.create(title: "Moderate", description: "Gear for weather when Moderate")
 
 # HEAD Items

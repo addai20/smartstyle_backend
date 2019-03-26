@@ -8,7 +8,8 @@ class ItemsController < ApplicationController
 
   def create
       @item = Item.create!(item_params)
-      render json: @item
+      # @current = Category.callmeethod(weather:, cond:)
+      render json: {params: params}
   end
 
   def update
@@ -18,6 +19,13 @@ class ItemsController < ApplicationController
     else
       render json: { errors: @item.errors.full_messages }, status: :unprocessible_entity
     end
+  end
+
+  def hello
+    @items = Category.getCategories(params)
+    @allItems = Category.getAllCategory(params)
+    @allItems.each {|item| @items.push(item)}
+    render json: {items: @items}
   end
 
   def destroy
