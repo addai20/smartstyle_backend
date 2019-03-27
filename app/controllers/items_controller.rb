@@ -9,7 +9,7 @@ class ItemsController < ApplicationController
   def create
       @item = Item.create!(item_params)
       # @current = Category.callmeethod(weather:, cond:)
-      render json: {params: params}
+      render json: @items
   end
 
   def update
@@ -37,7 +37,7 @@ class ItemsController < ApplicationController
   private
 
   def item_params
-    params.require(:item).permit(:name, :body_part, :img_url)
+    params.require(:item).permit(:name, :body_part, :img_url, :min_temp, :max_temp)
   end
 
   def find_item
